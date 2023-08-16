@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.side-content{    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.content-name{
+    padding-left: 15px;
+}
+
+.side-bar{
+    border: 1px solid white;   
+    width: 220px;     
+}
+
+.insta-name{
+    width: 100px;
+    height:53px;
+    margin-top: 20px;        
+    margin-left: 20px;   
+    background-image: url('iglogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
