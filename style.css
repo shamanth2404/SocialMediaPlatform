@@ -19,6 +19,7 @@ body{
     padding: 15px;
     padding-left: 20px;
     font-size: 16px;
+    margin-bottom: 3px;
 }
 
 .content-name{
@@ -38,11 +39,19 @@ body{
 .insta-name{
     width: 100px;
     height:53px;
-    margin-top: 20px;        
-    margin-left: 20px;      
+    margin-top: 40px;        
+    margin-left: 20px;
+    margin-bottom: 10px;      
     background-image: url('iglogo.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.side-content .head-profile-pic{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 11px;
 }
 
 .main{
@@ -50,10 +59,11 @@ body{
 
 }
 
+
 .main-story{
     height: 85px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -75,6 +85,23 @@ body{
     height: 100%;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+.main-story-name{
+    height: 15px;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    
+}
+
+.story-name{
+    font-size: 12px;
+    color: #f5f5f5;
+    width: 66px;
+    text-align: center;
 }
 
 .main-posts{
@@ -141,11 +168,10 @@ body{
     height: 40px;
     margin-top: 4px;
     margin-bottom: 4px;  
-    padding-left: 0px;  
 }
 
 i{
-    padding: 4px;
+    padding-right: 15px;
     
 }
 
@@ -154,6 +180,7 @@ i{
     color: #f5f5f5;
     font-size: 14px;
     margin-bottom: 4px;
+    font-weight: 700;
 }
 
 .post-caption{
@@ -174,7 +201,7 @@ i{
 }
 
 .post-comments{
-    font-size: 14px;
+    font-size: 14.2px;
     color: #a8a8a8;
     margin-bottom: 5px;
 }
@@ -190,6 +217,10 @@ i{
 
 }
 
+input::placeholder{
+    color: #a8a8a8;
+}
+
 .suggestions{
     width: 380px;
     height: 100vh;
@@ -203,14 +234,16 @@ i{
     height: 44px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .acc-details-name{
     font-size: 14px;
     padding-left: 12px;
-    padding-right: 35px;
+    
 }
 
 .acc-details img{
@@ -225,7 +258,13 @@ i{
 
 .bio-name{
     color: #a8a8a8;
-    padding-top: 2px;
+    
+}
+
+.acc-details-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .switch{
     font-size: 12px;
@@ -257,8 +296,10 @@ i{
     height: 44px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .acc-details-2 img{
