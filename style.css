@@ -7,8 +7,7 @@
 body{
     background-color: black;
     color: white;
-    display: flex;
-    
+    display: flex;     
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -217,7 +216,7 @@ i{
 
 }
 
-input::placeholder{
+.post input::placeholder{
     color: #a8a8a8;
 }
 
@@ -309,3 +308,49 @@ input::placeholder{
 }
 
 
+/* Login page CSS */
+
+.login-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border: 1px solid white;    
+}
+
+.login-main img{
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.login-main input{
+    width: 270px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.submit{
+    width: 270px;
+    height: 32px;
+    background-color: #008ae3;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.forgot{
+    font-size: 12px;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
