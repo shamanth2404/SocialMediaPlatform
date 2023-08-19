@@ -12,8 +12,10 @@
         <img src="iglogo.jpg">
         <form name="login" onsubmit="return pass_validate()" action="index.html">
             <input type="text" name="username" id="username" placeholder="Phone number, username or email"><br>
+            <span class="wrongusername"></span><br>
             <input type="password" name="password" id="userPassword" placeholder="Password"><br>
-            <button class="submit" onclick="validate()">Login</button>
+            <span class="wrongpassword"></span><br>
+            <input type="submit" class="submit" value="Login">
         </form>
         <span class="forgot">Forgot Password?</span>
     </div>
