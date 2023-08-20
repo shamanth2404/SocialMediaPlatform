@@ -31,7 +31,8 @@ body{
     position: sticky;
     top: 0;
     left: 0; 
-    border-right: 1px solid #a8a8a8;    
+    border-right: 1px solid rgba(168, 168, 168, 0.25);
+        
 }
 
 .insta-name{
@@ -86,7 +87,7 @@ body{
 
 .main-story-name{
     height: 15px;
-    width: 630px;
+    width: 650px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -109,10 +110,9 @@ body{
     align-items: center;
 }
 
-
 .post{
     width: 450px;
-    border-bottom: 1px solid #a8a8a8;    
+    border-bottom: 1px solid rgba(168, 168, 168, 0.25);    
     padding-bottom: 12px;
     margin-bottom: 24px ;    
 }
@@ -153,9 +153,9 @@ body{
     color: #a8a8a8;
 }
 
+
 .post-image img{
-    border-radius: 3px;
-    
+    border-radius: 3px;          
 }
 
 .post-options{
@@ -220,7 +220,8 @@ i{
 .suggestions{
     width: 380px;
     height: 100vh;
-    padding-left: 60px;
+    padding-left: 40px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;    
 }
@@ -302,7 +303,6 @@ i{
     width: 44px;
     border-radius: 50%;
 }
-
 
 /* Login page CSS */
 
