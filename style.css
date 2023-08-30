@@ -19,6 +19,7 @@ body{
     padding-left: 20px;
     font-size: 16px;
     margin-bottom: 3px;
+    cursor: pointer;
 }
 
 .content-name{
@@ -44,6 +45,7 @@ body{
     background-image: url('iglogo.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .side-content .head-profile-pic{
@@ -76,6 +78,7 @@ body{
     background: linear-gradient(to bottom left,#9648d0,#f61d26,#ffe81c);
     border-radius: 50%;
     padding: 2.15px;
+    cursor: pointer;
 }
 
 .story-border img{
@@ -149,7 +152,7 @@ body{
 }
 
 .post-time{
-    padding-left: 5px;
+    padding-left: 10px;
     color: #a8a8a8;
 }
 
@@ -164,11 +167,12 @@ body{
     justify-content: space-between;
     height: 40px;
     margin-top: 4px;
-    margin-bottom: 4px;  
+    margin-bottom: 4px;    
 }
 
 i{
-    padding-right: 15px;    
+    padding-right: 15px;  
+    cursor: pointer;  
 }
 
 .post-likes{
@@ -265,6 +269,7 @@ i{
 .switch{
     font-size: 12px;
     color: #008ae3;
+    cursor: pointer;
 }
 
 .suggestion-list{
@@ -286,6 +291,7 @@ i{
     padding-right: 5px;
     font-size: 12px;
     color: #f5f5f5;
+    cursor: pointer;
 }
 
 .acc-details-2{
@@ -312,7 +318,10 @@ i{
     align-items: center;
     justify-content: center;
     width: 350px;
-    border: 1px solid white;    
+    border: 1px solid rgba(168, 168, 168, 0.50); 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;   
 }
 
 .login-main img{
@@ -329,8 +338,7 @@ i{
     border-radius: 2px;
     border: none;
     outline: none;
-    cursor: pointer;
-    margin-bottom: 5px;
+    cursor: pointer;    
 }
 
 .submit{
@@ -349,9 +357,11 @@ i{
     font-size: 12px;
     color: #f5f5f5;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .wrongusername,.wrongpassword{
     font-size: 10px;
     color: #a8a8a8;
+    margin-bottom: 10px;
 }

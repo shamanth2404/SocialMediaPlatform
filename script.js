@@ -1,5 +1,3 @@
-
-
 function pass_validate(){
     var password = document.getElementById("userPassword").value;
     var username = document.getElementById("username").value;
@@ -24,9 +22,8 @@ function pass_validate(){
     }
 }
 
-function like(){
-    var likeIcon = document.querySelector(".post-options .fa-heart");
-    var list = likeIcon.classList;
+function like(likeIcon){
+    list = likeIcon.classList;
     if(list.contains("fa-regular")){
         likeIcon.classList.remove("fa-regular");
         likeIcon.classList.add("fa-solid");
@@ -40,9 +37,8 @@ function like(){
     
 }
 
-function save(){
-    var saveIcon = document.querySelector(".post-options .fa-bookmark");
-    var list = saveIcon.classList;
+function save(saveIcon){
+    list = saveIcon.classList;
     if(list.contains("fa-regular")){
         saveIcon.classList.remove("fa-regular");
         saveIcon.classList.add("fa-solid");        
@@ -53,3 +49,4 @@ function save(){
     }
     
 }
+

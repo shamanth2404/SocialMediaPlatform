@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">    
     <title>Instagram</title>
 </head>
 <body>
     <div class="side-bar">
-        <div class="insta-name">
-            
+        <div class="insta-name">            
         </div>
         <div class="side-content">
             <i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
@@ -45,7 +43,7 @@
             <img class="head-profile-pic" src="profile.jpg">
             <span class="content-name">Profile</span>
         </div>
-        <div class="side-content">
+        <div class="side-content" >
             <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
             <span class="content-name">More</span>
         </div>
@@ -100,17 +98,17 @@
                         <i class="fa-solid fa-list" style="color: #fcfcfc;"></i>
                     </div>
                 </div>
-                <div class="post-image" ondblclick="like()">
-                    <img src="img1.png" alt="img" id="news-img">
+                <div class="post-image" ondblclick="like(this)">
+                    <img src="post1.png" alt="img" id="news-img">
 
                 </div>
                 <div class="post-options">
                     <div class="post-options-left">
-                        <i class="fa-regular fa-heart fa-xl" style="color: #fcfcfc;" onclick="like()"></i>
+                        <i class="fa-regular fa-heart fa-xl" style="color: #fcfcfc;" onclick="like(this)"></i>
                         <i class="fa-regular fa-message fa-xl" style="color: #ffffff;"></i>
                     </div>
                     <div class="post-options-right">
-                        <i class="fa-regular fa-bookmark fa-xl" style="color: #fcfcfd;" onclick="save()"></i>
+                        <i class="fa-regular fa-bookmark fa-xl" style="color: #fcfcfd;" onclick="save(this)"></i>
                     </div>
                 </div>
                 <div class="post-likes">
@@ -118,7 +116,7 @@
                 </div>
                 <div class="post-caption">
                     <div class="acc-name">rvcjinsta</div>
-                    <div class="caption">Exactly</div>
+                    <div class="caption">Chandrayaan-3</div>
                 </div>
                 <div class="post-comments">
                     <span>View all 517 comments</span>                    
@@ -129,38 +127,36 @@
             <div class="post">
                 <div class="post-head">
                     <div class="post-head-left">
-                        <div class="head-profile-pic">
-                            <i class="fa-regular fa-circle" style="color: #fcfcfc;"></i>
-                        </div>
-                        <div class="acc-name">rvcjinsta</div>
-                        <div class="post-time">1h</div>
+                        <img class="head-profile-pic" src="bmsce2.png">
+                        <div class="acc-name">bmsce_25</div>
+                        <div class="post-time">7h</div>
                     </div>
                     <div class="post-head-right">
                         <i class="fa-solid fa-list" style="color: #fcfcfc;"></i>
                     </div>
                 </div>
                 <div class="post-image" >
-                    <img src="img1.png" alt="img" id="news-img" ondblclick="like()">
+                    <img src="post2.png" alt="img" id="news-img">
 
                 </div>
                 <div class="post-options">
                     <div class="post-options-left">
-                        <i class="fa-regular fa-heart fa-xl" style="color: #fcfcfc;" onclick="like()"></i>
+                        <i class="fa-regular fa-heart fa-xl" style="color: #fcfcfc;" onclick="like(this)"></i>
                         <i class="fa-regular fa-message fa-xl" style="color: #ffffff;"></i>
                     </div>
                     <div class="post-options-right">
-                        <i class="fa-regular fa-bookmark fa-xl" style="color: #fcfcfd;" onclick="save()"></i>
+                        <i class="fa-regular fa-bookmark fa-xl" style="color: #fcfcfd;" onclick="save(this)"></i>
                     </div>
                 </div>
                 <div class="post-likes">
-                    <span>20,168 likes</span>
+                    <span>853 likes</span>
                 </div>
                 <div class="post-caption">
-                    <div class="acc-name">rvcjinsta</div>
-                    <div class="caption">Exactly</div>
+                    <div class="acc-name">bmsce_25</div>
+                    <div class="caption">🤌🏻🤍</div>
                 </div>
                 <div class="post-comments">
-                    <span>View all 517 comments</span>                    
+                    <span>View all 5 comments</span>                    
                 </div>
                 <input type="text" class="comments" placeholder="Add a comment...">
             </div>
@@ -221,7 +217,9 @@
             </div>
             </div>
             <span class="switch">Follow</span>
-        </div>
+        </div>        
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
