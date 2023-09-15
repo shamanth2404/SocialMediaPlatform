@@ -12,7 +12,7 @@ function pass_validate(){
         if(password=="bmsce26")
             return true;
         else{
-            wrongpassword.innerHTML = "*Password id incorrect";
+            wrongpassword.innerHTML = "*Password is incorrect";
             return false;
         }
     }
